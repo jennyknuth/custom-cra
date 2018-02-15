@@ -192,7 +192,7 @@ module.exports = {
           },
           {
             test: /\.scss$/,
-            loaders: [
+            use: [
               require.resolve('style-loader'),
               {
                 loader: require.resolve('css-loader'),

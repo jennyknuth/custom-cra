@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
-// import './App.scss';
 import styles from './App.scss';
 console.log(styles);
 
@@ -13,7 +12,7 @@ class App extends Component {
           <h1 className={styles.title}>Welcome to React</h1>
         </header>
         <p className={styles.intro}>
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started, edit <code>src/App/App.js</code> and save to reload.
         </p>
       </div>
     );
