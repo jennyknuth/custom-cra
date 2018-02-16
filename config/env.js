@@ -1,4 +1,4 @@
-/* eslint-disable prefer-destructuring, global-require, no-param-assign, no-param-reassign */
+/* eslint-disable prefer-destructuring, global-require, no-param-assign, no-param-reassign, comma-dangle, max-len */
 
 
 const fs = require('fs');
@@ -74,7 +74,7 @@ function getClientEnvironment(publicUrl) {
         // This should only be used as an escape hatch. Normally you would put
         // images into the `src` and `import` them in code to get their paths.
         PUBLIC_URL: publicUrl,
-      },
+      }
     );
   // Stringify all values so we can feed into Webpack DefinePlugin
   const stringified = {
