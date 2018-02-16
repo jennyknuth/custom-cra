@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from '../logo.svg';
+import logo from './logo.svg';
 import styles from './App.scss';
 
 const App = () => {
-  console.log(this);
   return (
     <div className={styles.app}>
       <header className={styles.header}>
