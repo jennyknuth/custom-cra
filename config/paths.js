@@ -1,4 +1,5 @@
-'use strict';
+/* eslint-disable no-param-assign, no-shadow, global-require, import/no-dynamic-require */
+
 
 const path = require('path');
 const fs = require('fs');
@@ -17,9 +18,8 @@ function ensureSlash(path, needsSlash) {
     return path.substr(path, path.length - 1);
   } else if (!hasSlash && needsSlash) {
     return `${path}/`;
-  } else {
-    return path;
   }
+  return path;
 }
 
 const getPublicUrl = appPackageJson =>

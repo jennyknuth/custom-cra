@@ -1,17 +1,16 @@
 .app {
-  text-align: center;
+  // text-align: center;
 }
 
 .logo {
-  animation: logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40px;
 }
 
 .header {
-  background-color: #222;
-  height: 150px;
+  background-color: #354042;
+  height: 50px;
   padding: 20px;
-  color: white;
+  color: #fff;
 }
 
 .title {
@@ -20,9 +19,4 @@
 
 .intro {
   font-size: large;
-}
-
-@keyframes logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
